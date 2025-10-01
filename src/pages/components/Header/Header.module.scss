@@ -1,0 +1,13 @@
+.wrapper{
+    padding: 15px;
+    display: flex;
+    background-color: royalblue;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+
+    & .function{
+        display: flex;
+        gap: 10px;
+    }
+}

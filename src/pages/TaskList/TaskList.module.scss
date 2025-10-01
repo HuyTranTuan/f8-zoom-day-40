@@ -1,0 +1,50 @@
+.wrapper{
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+
+    & .header{
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        & .title {
+            font-size: 30px;
+            font-weight: bold;
+        }
+    }
+
+    & .tasklist{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 20px;
+        padding: 20px;
+        box-shadow: 2px 2px 10px #424242;
+    }
+
+    & .modal-title{
+        margin-top: 10px;
+        font-size: 23px;
+        font-weight: bold;
+        color: #424242;
+        width: 300px;
+    }
+    & .modal-content{
+        margin-top: 20px;
+        font-size: 17px;
+        color: #424242;
+    }
+
+    & .modal-btns{
+        margin-top: 20px;
+        display: flex;
+        gap: 10px;
+        justify-content: flex-end;
+
+        & button{
+            border-radius: 10px ;
+        }
+    }
+}

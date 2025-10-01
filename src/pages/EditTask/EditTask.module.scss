@@ -1,0 +1,50 @@
+.wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    max-width: 500px;
+
+    & .form-group {
+        margin-top: 10px;
+        display: flex;
+
+        &:has(input[type="text"]) {
+            flex-direction: column;
+        }
+
+        & label {
+            font-size: 20px;
+            font-weight: bold;
+            color: #424242;
+        }
+
+        & input[type="text"] {
+            margin-top: 10px;
+            border: none;
+            outline: 1px solid #424242;
+            border-radius: 5px;
+            padding: 10px 15px;
+            font-size: 18px;
+            color: #424242;
+
+            &:focus {
+                outline: 3px solid #1a1a1a;
+            }
+
+            &:hover {
+                outline: 3px solid #1a1a1a;
+            }
+        }
+    }
+
+    & .form-btns-control {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 20px;
+
+        & button {
+            border-radius: 5px;
+        }
+    }
+}

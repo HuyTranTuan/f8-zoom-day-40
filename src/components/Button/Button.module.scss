@@ -1,0 +1,76 @@
+.wrapper{
+    padding: 10px 15px;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 500;
+    outline: none;
+    border: none;
+    transition: all 0.3s ease;
+    cursor: pointer;
+
+    &.sm {
+        font-size: 14px;
+        padding: 12px 16px;
+    }
+
+    &.md {
+        font-size: 18px;
+        padding: 12px 16px;
+    }
+
+    &.lg {
+        font-size: 20px;
+        padding: 15px 20px;
+    }
+
+    &.rounded {
+        border-radius: 10px;
+    }
+    &:hover {
+        background-color: #424242;
+        color: white;
+    }
+
+    &.primary {
+        background-color: cornflowerblue;
+        color: white;
+    }
+
+    &.warning {
+        background-color: gold;
+        color: black;
+    }
+
+    &.success {
+        background-color: limegreen;
+        color: black;
+    }
+
+    &.danger {
+        background-color: crimson;
+        color: black;
+    }
+    &.primary:hover {
+        background-color: royalblue;
+        color: white;
+    }
+
+    &.warning:hover {
+        background-color: goldenrod;
+        color: white;
+    }
+
+    &.success:hover {
+        background-color: seagreen;
+        color: white;
+    }
+
+    &.danger:hover {
+        background-color: darkred;
+        color: white;
+    }
+    a {
+        color: black;
+        text-decoration: none;
+    }
+}
